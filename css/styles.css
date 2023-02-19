@@ -32,12 +32,20 @@ p {
   line-height: 1.5;
 }
 
-
-
-
 /* Containers */
+
 .container-fluid {
   padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation bar */
@@ -64,15 +72,9 @@ p {
 
 /* Title-Section */
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
-
-
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Download Buttons */
@@ -97,7 +99,6 @@ i {
 /* Feature section */
 #features {
   padding: 7%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -125,7 +126,7 @@ i {
 #testimonials {
 
   background-color: #ef8172;
-  color: #fff;
+
 }
 
 .testimonial-image {
@@ -174,12 +175,6 @@ i {
 }
 
 /* Contact to Action */
-#cta {
-  background-color: #ff4c68;
-  color: white;
-
-
-}
 
 .cta-heading {
   font-family: "Montserrat";
@@ -190,7 +185,7 @@ i {
 
 /* Footer */
 #footer {
-  background-color: #fff;
+
   line-height: 2;
 }
 
